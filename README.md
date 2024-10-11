@@ -70,6 +70,8 @@ add the following lines at the bottom of the file
 ![image](https://github.com/user-attachments/assets/d23e3d2e-1f58-45a4-85da-27a3702cdba6)
 press ctrl+x to exit then press y to save changes and press enter to keep file name same as before
 
+this will basically run the script every 30 seconds after the system boots as well as after every 10 minutes pass.
+
 
 
     
