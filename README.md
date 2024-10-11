@@ -71,6 +71,7 @@ add the following lines at the bottom of the file
 press ctrl+x to exit then press y to save changes and press enter to keep file name same as before
 
 this will basically run the script every 30 seconds after the system boots as well as after every 10 minutes pass.
+thus ensuring we have an uninterrupted internet connection
 
 
 
