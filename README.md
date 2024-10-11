@@ -23,6 +23,7 @@ mypi@roompi:~$ sudo raspi-config
 ```
 use arrow keys to navigate, enter key to go into an section, space key to select an option ,in the console based gui that appears
 set your timezone,keyboard,WLAN country,exapnd your filesystem after doing all this select 'Finish' , you will be then prompted to reboot your system click 'yes'
+
 7. After your system reboots again ssh into your pi and type the following commands
 ```console
 mypi@roompi:~$ sudo apt update && sudo apt upgrade
