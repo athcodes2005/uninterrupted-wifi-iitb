@@ -43,8 +43,25 @@ copy the newly generated token and paste it in some notepad temporarily
 ```console
 mypi@roompi:~$ git clone https://github.com/athcodes2005/uninterrupted-wifi-iitb.git
 mypi@roompi:~$ cd uninterrupted-wifi-iitb
-mypi@roompi:~$ nano script.sh 
+mypi@roompi:~/uninterrupted-wifi-iitb $ nano script.sh
 ```
+10. here's how a sample script might look
+![image](https://github.com/user-attachments/assets/4c0d4205-6d2a-4c5c-a5d2-7b4712e1f4b9)
+*this not an actual roll no and internet access token replace it with your own credentials
+press ctrl+x to exit then press y to save changes and press enter to keep file name same as before
+then proceed to give execute permission to the script
+```console
+mypi@roompi:~/uninterrupted-wifi-iitb $ chmod +x script.sh
+```
+check whether the script runs by executing following command 
+```console
+mypi@roompi:~/uninterrupted-wifi-iitb $ ./script.sh
+```
+
+
+
+    
+
 
 
 
