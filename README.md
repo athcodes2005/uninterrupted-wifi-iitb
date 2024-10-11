@@ -2,7 +2,6 @@
 Wi-Fi Router with Automated IIT Bombay Internet Login
 
 Have you ever been annoyed after coming back to your room after lectures and finding that your phone won't use the your room's wifi because the internet connection has become inactive and you have to follow again the cumbersome process of waiting for the "internet.iitb.ac.in" website to load and login,here is an one time fix that will solve your problem forever.
-![image](https://github.com/user-attachments/assets/95d7ebba-6eae-40eb-a813-25ac4b848304)
 <img src="https://github.com/user-attachments/assets/95d7ebba-6eae-40eb-a813-25ac4b848304" alt="drawing" width="200"/>
 
 # Materials Needed
