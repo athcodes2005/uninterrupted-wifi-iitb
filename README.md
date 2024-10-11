@@ -22,7 +22,7 @@ Have you ever been annoyed after coming back to your room after lectures and fin
 mypi@roompi:~$ sudo raspi-config
 ```
 use arrow keys to navigate, enter key to go into an section, space key to select an option ,in the console based gui that appears
-set your timezone,keyboard,WLAN country,exapnd your filesystem after doing all this select 'Finish' , you will be then prompted to reboot your system click 'yes'
+set your timezone, keyboard, WLAN country, expand your filesystem after doing all this select 'Finish' , you will be then prompted to reboot your system click 'yes'
 
 7. After your system reboots again ssh into your pi and type the following commands
 ```console
@@ -62,6 +62,15 @@ mypi@roompi:~/uninterrupted-wifi-iitb $ ./script.sh
 mypi@roompi:~/uninterrupted-wifi-iitb $ crontab -e
 ```
 it will then prompt you to select a text editor , proceed with 'nano' as your text editor it will then open the crontab file in the editor that you selected
+add the following lines at the bottom of the file
+```console
+@reboot sleep 30 && /home/mypi/uninterrupted-wifi-iitb/script.sh 
+*/10 * * * * /home/mypi/uninterrupted-wifi-iitb/script.sh
+```
+![image](https://github.com/user-attachments/assets/d23e3d2e-1f58-45a4-85da-27a3702cdba6)
+press ctrl+x to exit then press y to save changes and press enter to keep file name same as before
+
+
 
     
 
