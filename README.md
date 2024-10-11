@@ -57,6 +57,13 @@ check whether the script runs by executing following command
 ```console
 mypi@roompi:~/uninterrupted-wifi-iitb $ ./script.sh
 ```
+11. setup cronjob to run script automatically every time the system boots as well as after every 10 minutes
+```console
+mypi@roompi:~/uninterrupted-wifi-iitb $ crontab -e
+```
+it will then prompt you to select a text editor , proceed with 'nano' as your text editor it will then open the crontab file in the editor that you selected
+
+    
 
 
 
