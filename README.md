@@ -31,10 +31,13 @@ mypi@roompi:~$ sudo apt install git
 ```
 this will update the reposiory and fetch the latest packages for your device and also install git on your device
 
-8.Now you need to generate internet access tokens for your ldap account
-head over to [sso settings](https://sso.iitb.ac.in/settings)
+8. Now you need to generate internet access tokens for your ldap account
+head over to your [sso settings](https://sso.iitb.ac.in/settings)
+click on configure button under Access token
+![image](https://github.com/user-attachments/assets/7b5dc70b-a36f-4078-9905-d9bd2513c8f0)
 
-9. then proceed to clone this repository && give execution permission to the shell script
+
+10. then proceed to clone this repository && give execution permission to the shell script
 ```console
 mypi@roompi:~$ git clone https://github.com/athcodes2005/uninterrupted-wifi-iitb.git
 mypi@roompi:~$ cd uninterrupted-wifi-iitb
