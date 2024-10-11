@@ -30,7 +30,7 @@ mypi@roompi:~$ sudo apt update && sudo apt upgrade
 mypi@roompi:~$ sudo apt install git
 ```
 this will update the reposiory and fetch the latest packages for your device and also install git on your device
-8.then proceed to clone this repository 
+8. then proceed to clone this repository 
 ```console
 mypi@roompi:~$ git clone https://github.com/athcodes2005/uninterrupted-wifi-iitb.git
 ```
