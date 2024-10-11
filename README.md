@@ -39,7 +39,7 @@ click on generate new then tick the CC's internet access portal and hit generate
 ![image](https://github.com/user-attachments/assets/7247f733-07e0-4dfd-afcd-f4314c760819)
 copy the newly generated token and paste it in some notepad temporarily
 
-10. then proceed to clone this repository && edit the script,replace (internetaccesstoken) with internet access token obtained earlier and (ldapid) with your roll no  
+9. then proceed to clone this repository && edit the script,replace (internetaccesstoken) with internet access token obtained earlier and (ldapid) with your roll no  
 ```console
 mypi@roompi:~$ git clone https://github.com/athcodes2005/uninterrupted-wifi-iitb.git
 mypi@roompi:~$ cd uninterrupted-wifi-iitb
