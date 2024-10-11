@@ -35,6 +35,10 @@ this will update the reposiory and fetch the latest packages for your device and
 head over to your [sso settings](https://sso.iitb.ac.in/settings)
 click on configure button under Access token
 ![image](https://github.com/user-attachments/assets/7b5dc70b-a36f-4078-9905-d9bd2513c8f0)
+click on generate new then tick the CC's internet access portal and hit generate button
+![image](https://github.com/user-attachments/assets/7247f733-07e0-4dfd-afcd-f4314c760819)
+
+
 
 
 10. then proceed to clone this repository && give execution permission to the shell script
