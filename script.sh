@@ -3,7 +3,7 @@
 # Function to check the internet connection
 check_internet() {
     # Checks internet connection to google using wget with a single try and 3-second timeout
-    wget -q --spider --tries=1 --timeout=3 https://www.google.com
+    wget -4 -q --spider --timeout=3 https://www.google.com
     # Returns the exit status of wget command
     return $?
 }
